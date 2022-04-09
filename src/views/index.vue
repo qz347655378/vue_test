@@ -6,9 +6,7 @@
 		<div class="box">
 			<div class="menu"></div>
 			<div class="content">
-				<p>{{message}}</p>
-				<span style="padding: 5px;margin: 5px;outline: red solid 1px;color: red;font-family: Arial;">{{message}}</span>
-				<div style="padding-bottom: 2000px"></div>
+				<router-view></router-view>
 			</div>
 		</div>
 		<div class="footer"></div>
@@ -107,7 +105,6 @@ export default {
 	flex-grow: 1;
 	flex-flow: column;
 	background-color: white;
-	border-radius: 10px;
 	overflow-y: auto;
 	top: 0;
 	bottom: 0;

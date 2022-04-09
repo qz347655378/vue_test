@@ -62,8 +62,11 @@ export default {
 				this.loading = false;
 				this.$router.push("/");
 			}, 1000);
+			
+			
 		}
-	}
+	},
+	
 	
 }
 </script>
